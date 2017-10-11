@@ -1,0 +1,92 @@
+// variaveis de cor
+$cinza: #e2e2e2;
+$cinza-escuro: #909090;
+
+// variaveis de fonte
+$roboto: 'Roboto', sans-serif;
+
+// variaveis de tamanho
+$menu: 10px;
+$submenu: 20px;
+// ESTILO DO MENU INICIAL
+.menu-principal{ // estilo geral do menu
+	position: fixed;
+	height: 100vh;
+	width: 200px;
+	background-color: $cinza;
+	font-family: $roboto;
+	text-transform: uppercase;
+	letter-spacing:2px;
+	nav{
+		.navbar-item{ //item do menu geral
+			border-bottom: 1px dashed black;
+			padding: 7px $menu;
+			font-size: 12pt;
+
+			&:hover{
+				background-color:$cinza-escuro;
+			}
+
+		}
+		.subnav-item{ //subitem (itens dentro dos itens) do menu geral
+			background-color: white;
+			padding: 3px;
+			padding-left: $menu * 2;
+			font-size: 10pt;
+			width: 200px;
+			margin-left: -$menu;
+
+			&:before{
+				content: '-';
+				padding-right: 3px;
+			}
+			&:hover{
+				background-color: $cinza-escuro;
+			}
+		}
+		
+		//menu escondido
+		.secondmenu{
+			background-color: rgba(0,0,0,.3);
+			z-index: 10;
+			position:fixed;
+			top: 0;
+			left: 200px;
+			height: 100vh;
+			color: white;
+			padding: 40px 0;
+			visibility: hidden;
+			transform: translate(-200px, 0);
+			transition: ease-in-out 2s;
+
+			h3{ //titulo menu escondido
+				border-bottom: 3px solid white;
+				padding: 5px 10px;
+				font-size: 14pt;
+				letter-spacing: 2px;
+				margin: 0 ($submenu - 5px);
+			}
+			.secondmenu-item{ //item do menu escondido
+				margin-top: 7px;
+				text-transform: capitalize;
+				padding-left: $submenu + 15px;
+
+				&:hover{
+					background-color: yellow;
+					color: black;
+				}
+			}
+		} //fim do menu escondido
+	}
+} // fim do menu principal
+.translate{
+	visibility: visible !important;
+	transform: translate(0,0) !important;	
+	transition: ease-in-out 2s;
+}
+
+.bg-principal{
+	background: url(../bendita-versoes.png);
+	background-repeat: repeat;
+
+}

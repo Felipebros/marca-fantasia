@@ -1,0 +1,62 @@
+.menu-principal {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  background-color: #e2e2e2;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .menu-principal nav .navbar-item {
+    border-bottom: 1px dashed black;
+    padding: 7px 10px;
+    font-size: 12pt; }
+    .menu-principal nav .navbar-item:hover {
+      background-color: #909090; }
+  .menu-principal nav .subnav-item {
+    background-color: white;
+    padding: 3px;
+    padding-left: 20px;
+    font-size: 10pt;
+    width: 200px;
+    margin-left: -10px; }
+    .menu-principal nav .subnav-item:before {
+      content: '-';
+      padding-right: 3px; }
+    .menu-principal nav .subnav-item:hover {
+      background-color: #909090; }
+  .menu-principal nav .secondmenu {
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    height: 100vh;
+    color: white;
+    padding: 40px 0;
+    visibility: hidden;
+    transform: translate(-200px, 0);
+    transition: ease-in-out 2s; }
+    .menu-principal nav .secondmenu h3 {
+      border-bottom: 3px solid white;
+      padding: 5px 10px;
+      font-size: 14pt;
+      letter-spacing: 2px;
+      margin: 0 15px; }
+    .menu-principal nav .secondmenu .secondmenu-item {
+      margin-top: 7px;
+      text-transform: capitalize;
+      padding-left: 35px; }
+      .menu-principal nav .secondmenu .secondmenu-item:hover {
+        background-color: yellow;
+        color: black; }
+
+.translate {
+  visibility: visible !important;
+  transform: translate(0, 0) !important;
+  transition: ease-in-out 2s; }
+
+.bg-principal {
+  background: url(../bendita-versoes.png);
+  background-repeat: repeat; }
+
+/*# sourceMappingURL=style.css.map */
