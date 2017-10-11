@@ -1,37 +1,41 @@
 .bg-cinza {
-	background: #ccc;
+	background: #e4e4e4;
 }
 
 .bg-pattern {
-	background: url('http://img.freepik.com/free-vector/golden-ornamental-pattern-background_1268-828.jpg?size=338&ext=jpg')repeat;
+	background: url('../bg-temp.jpg')repeat;
 }
 
 .titulo-principal {
-	background: #ccc;
-	padding: 20px;
+	background: #e4e4e4;
+	padding: 20px 0 16px 0;
 	border-radius: 20px 20px 0 0;
 	font-size: 26px;
 	text-align: center;
-	color: #00f;
+	color: #2a356d;
 	margin-top: 20px;
 }
 
 .titulo-destaque-esquerda-1 {
-	background: #999;
+	background: #7c7c7c;
 	padding: 10px;
 	border-radius: 10px 0 0 0;
 	margin-top: 20px;
 	font-weight: bold;
 	font-size: 16px;
+	color: #fff;
+	text-align: center;
 }
 
 .titulo-destaque-esquerda-2 {
-	background: #999;
+	background: #7c7c7c;
 	padding: 10px;
 	border-radius: 0;
 	margin-top: 20px;
 	font-weight: bold;
 	font-size: 16px;
+	color: #fff;
+	text-align: center;
 }
 
 .texto-destaque-esquerda-1 {
@@ -56,16 +60,18 @@
 }
 
 .titulo-conteudo-principal {
-	border-bottom: 2px solid #00f;
+	border-bottom: 2px solid #2a356d;
 	margin-bottom: 10px;
 	margin-top: -40px;
 	font-size: 20px;
 	text-align: center;
-	color: #00f;
+	color: #2a356d;
+	letter-spacing: 4;
+	padding: 2px;
 }
 
 .etiqueta-lancamento {
-	background: OrangeRed;
+	background: #d56128;
 	position: relative;
 	width: 120px;
 	height: 30px;
@@ -89,17 +95,17 @@
 
 .titulo-lancamentos {
 	text-align: center;
-	background: #999;
+	background: #212636;
 	border-radius: 20px 20px 0 0;
-	padding: 10px;
+	padding: 12px;
 	margin-top: 20px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.lancamentos img {
-	margin: 10px;
+.lancamentos-blocos {
+	margin: 10px 0;
 }
 
 /*# sourceMappingURL=style-content.css.map */
