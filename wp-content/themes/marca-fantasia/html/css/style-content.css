@@ -1,0 +1,105 @@
+.bg-cinza {
+	background: #ccc;
+}
+
+.bg-pattern {
+	background: url('http://img.freepik.com/free-vector/golden-ornamental-pattern-background_1268-828.jpg?size=338&ext=jpg')repeat;
+}
+
+.titulo-principal {
+	background: #ccc;
+	padding: 20px;
+	border-radius: 20px 20px 0 0;
+	font-size: 26px;
+	text-align: center;
+	color: #00f;
+	margin-top: 20px;
+}
+
+.titulo-destaque-esquerda-1 {
+	background: #999;
+	padding: 10px;
+	border-radius: 10px 0 0 0;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.titulo-destaque-esquerda-2 {
+	background: #999;
+	padding: 10px;
+	border-radius: 0;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.texto-destaque-esquerda-1 {
+	background: #fff;
+	padding: 10px;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.texto-destaque-esquerda-2 {
+	background: #fff;
+	padding: 10px;
+	border-radius: 0 0 0 10px;
+	margin-bottom: 20px;
+}
+
+.conteudo-principal {
+	background: #fff;
+	border-radius: 0 10px 10px 0;
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.titulo-conteudo-principal {
+	border-bottom: 2px solid #00f;
+	margin-bottom: 10px;
+	margin-top: -40px;
+	font-size: 20px;
+	text-align: center;
+	color: #00f;
+}
+
+.etiqueta-lancamento {
+	background: OrangeRed;
+	position: relative;
+	width: 120px;
+	height: 30px;
+	top: 0;
+	left: -20px;
+	z-index: 100;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.lancamentos {
+	background: #fff;
+	border-radius: 0 0 20px 20px;
+	height: 380px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.titulo-lancamentos {
+	text-align: center;
+	background: #999;
+	border-radius: 20px 20px 0 0;
+	padding: 10px;
+	margin-top: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.lancamentos img {
+	margin: 10px;
+}
+
+/*# sourceMappingURL=style-content.css.map */

@@ -3,6 +3,7 @@
 	<meta charset="UTF-8">
 	<title>Marca de Fantasia</title>
 	<link rel="stylesheet" href="css/style.css"> <!-- aqui fica a folha de estilo padrão -->
+	<link rel="stylesheet" href="css/style-content.css"> <!-- aqui fica a folha de estilo do conteudo -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"> <!-- bootsrap linkado aqui -->
 	<link rel="stylesheet" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!-- roboto fonte -->
@@ -52,66 +53,88 @@
 		<div class="col-md-1 cart">carrinho de compras</div> <!-- ícone do carrinho de compras -->
 	</div> <!-- fim da parte azul superior do site -->
 
+	<section class="container-fluid bg-pattern"> <!-- aqui vem o bg com a pattern -->
+	<div class="container">
+		<div class="col-md-4 titulo-principal">
+			<h1>DESTAQUE: <b>MARIA</b></h1> <!-- titulo principal -->
+		</div>
+	</div>
+	</section>
 	<section class="container-fluid bg-cinza"> <!-- aqui vem o bg cinza da parte de maria -->
 		<div class="container">
-			<h1></h1> <!-- titulo principal -->
 			<div class="col-md-5"> <!-- parte esquerda do maria (maria e albuns) -->
 				<div class="col-md-12">
-					<h2></h2><!--  título lateral -->
-					<p></p>
-				</div>
-				<div class="col-md-12">
-					<h2></h2> <!--  título lateral -->
-					<p></p>
+					<div class="titulo-destaque-esquerda-1">
+						<h2>MARIA MAGAZINE</h2><!--  título lateral -->
+					</div>
+					<div class="texto-destaque-esquerda-1">
+						<p>Revista em quadrinhos humorística de Henrique Magalhães com a personagem "Maria", de sua autoria, mais convidados.</p>
+					</div>
+					<div class="titulo-destaque-esquerda-2">
+						<h2>ÁLBUNS</h2> <!--  título lateral -->
+					</div>
+					<div class="texto-destaque-esquerda-2">
+						<p>Coletâneas de tiras de "Maria", por temas ou fases de produção, edições comemorativas por décadas de criação.</p>
+					</div>
 				</div>
 			</div> 
-			<div class="col-md-7"><!-- conteúdo principal -->
-				<h2></h2>
-				<div class="col-md-5"><img src="" alt=""></div> <!-- imagem principal -->
-				<div class="col-md-7"> <!-- texto -->
-					<p></p>
+			<div class="col-md-7 conteudo-principal"><!-- conteúdo principal -->
+				<div class="etiqueta-lancamento">Lançamento</div>
+				<div class="col-md-5"><img src="http://lorempixel.com/220/320/abstract/" alt=""></div> <!-- imagem principal -->
+				<div class="col-md-7">
+					<div class="titulo-conteudo-principal">
+						<h2>MARIA MAGAZINE 9</h2>
+					</div>
+					<div class="texto-conteudo-principal">
+					 	<!-- texto -->
+						<p>A Maria Magazine mantém seu propósito de mostrar os quadrinhos humorísticos paraibanos trazendo não só as tiras de Maria e companheiras, bem como a criação de outros autores, que mostram a pluralidade de nossa arte. Nesta edição, uma homenagem ao inesquecível Cristovam Tadeu, que nos deixou órfãos de sua graça contagiante e seu bem-querer incondicional. Apresentamos uma breve trajetória desse autor e boa amostragem de sua arte. Saudades, mon ami. <a href="#">Segue</a></p>
+					</div>
 				</div>
 			</div> 
 		</div><!--  fim do container -->
 
 	</section>
 
-	<div class="container-fluid bg-principal">
+	<div class="container-fluid bg-pattern">
 		<section class="container"> <!-- ultimos lançamentos -->
-			<h1></h1> <!-- titulo da section -->
+			<div class="titulo-lancamentos">
+				<h1>ÚLTIMOS LANÇAMENTOS</h1> <!-- titulo da section -->
+			</div>
+			<div class="lancamentos">
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div><!--  primeira linha de produtos -->
 
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
 			</div>
 			<div class="col-md-3">
-				<img src="" alt="">
+				<img src="http://lorempixel.com/110/160/abstract/" alt="">
 				<p></p>
-			</div><!--  segunda linha de produtos -->
+			</div>
+		</div><!--  segunda linha de produtos -->
 
 		</section> <!-- fim do ultimos lançamentos -->
 
@@ -136,7 +159,8 @@
 				<h3></h3>
 				<img src="" alt="">
 				<p></p>
-			</div><!--  primeira linha de tirinhas -->
+			</div>
+		</div><!--  primeira linha de tirinhas -->
 		</section> <!-- fim das tirinhas -->
 
 	</div><!--  fim do bg-principal -->
