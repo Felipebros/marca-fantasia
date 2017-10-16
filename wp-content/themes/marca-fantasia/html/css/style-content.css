@@ -1,5 +1,4 @@
 .bg-cinza {
-<<<<<<< HEAD
 	background: #ccc;
 }
 
@@ -29,44 +28,34 @@
 	font-size: 26px;
 	text-align: center;
 	color: #2a356d;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	margin-top: 20px;
 }
 
 .titulo-destaque-esquerda-1 {
-<<<<<<< HEAD
 	background: #999;
-=======
 	background: #7c7c7c;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	padding: 10px;
 	border-radius: 10px 0 0 0;
 	margin-top: 20px;
 	font-weight: bold;
 	font-size: 16px;
-<<<<<<< HEAD
 }
 
 .titulo-destaque-esquerda-2 {
 	background: #999;
-=======
 	color: #fff;
 	text-align: center;
 }
 
 .titulo-destaque-esquerda-2 {
 	background: #7c7c7c;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	padding: 10px;
 	border-radius: 0;
 	margin-top: 20px;
 	font-weight: bold;
 	font-size: 16px;
-<<<<<<< HEAD
-=======
 	color: #fff;
 	text-align: center;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 }
 
 .texto-destaque-esquerda-1 {
@@ -91,22 +80,17 @@
 }
 
 .titulo-conteudo-principal {
-<<<<<<< HEAD
 	border-bottom: 2px solid #00f;
-=======
 	border-bottom: 2px solid #2a356d;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	margin-bottom: 10px;
 	margin-top: -40px;
 	font-size: 20px;
 	text-align: center;
-<<<<<<< HEAD
 	color: #00f;
 }
 
 .etiqueta-lancamento {
 	background: OrangeRed;
-=======
 	color: #2a356d;
 	letter-spacing: 4;
 	padding: 2px;
@@ -114,7 +98,6 @@
 
 .etiqueta-lancamento {
 	background: #d56128;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	position: relative;
 	width: 120px;
 	height: 30px;
@@ -138,28 +121,25 @@
 
 .titulo-lancamentos {
 	text-align: center;
-<<<<<<< HEAD
 	background: #999;
 	border-radius: 20px 20px 0 0;
 	padding: 10px;
-=======
 	background: #212636;
 	border-radius: 20px 20px 0 0;
 	padding: 12px;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 	margin-top: 20px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-<<<<<<< HEAD
+
 .lancamentos img {
 	margin: 10px;
-=======
+}
+
 .lancamentos-blocos {
 	margin: 10px 0;
->>>>>>> cdf9a25582509d1ef25111cd29279eb944de9622
 }
 
 /*# sourceMappingURL=style-content.css.map */
