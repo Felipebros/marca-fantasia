@@ -36,6 +36,7 @@ $submenu: 20px;
 			border-bottom: 1px dashed black;
 			padding: 7px $menu;
 			font-size: 12pt;
+			z-index: inherit;
 
 			&:hover{
 				background-color:$cinza-quase-escuro;
@@ -49,6 +50,7 @@ $submenu: 20px;
 			font-size: 10pt;
 			width: 198px;
 			margin-left: -$menu;
+			z-index: inherit;
 
 			&:before{
 				content: '-';
@@ -96,9 +98,15 @@ $submenu: 20px;
 	visibility: visible;
 	transform: translate(0,0) !important;	
 	transition: ease-in-out .3s;
+	z-index: 0;
 }
 .esconder{
 	visibility: hidden;
+}
+.esconder-total{
+	visibility: hidden;
+	width: 0;
+	height: 0;
 }
 .bg-principal{
 	background: url(../bendita-versoes.png);

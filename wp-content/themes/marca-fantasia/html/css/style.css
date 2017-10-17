@@ -16,7 +16,8 @@
   .menu-principal nav .navbar-item {
     border-bottom: 1px dashed black;
     padding: 7px 10px;
-    font-size: 12pt; }
+    font-size: 12pt;
+    z-index: inherit; }
     .menu-principal nav .navbar-item:hover {
       background-color: #c0c0c0; }
   .menu-principal nav .subnav-item {
@@ -25,7 +26,8 @@
     padding-left: 20px;
     font-size: 10pt;
     width: 198px;
-    margin-left: -10px; }
+    margin-left: -10px;
+    z-index: inherit; }
     .menu-principal nav .subnav-item:before {
       content: '-';
       padding-right: 3px; }
@@ -60,10 +62,16 @@
 .translate {
   visibility: visible;
   transform: translate(0, 0) !important;
-  transition: ease-in-out .3s; }
+  transition: ease-in-out .3s;
+  z-index: 0; }
 
 .esconder {
   visibility: hidden; }
+
+.esconder-total {
+  visibility: hidden;
+  width: 0;
+  height: 0; }
 
 .bg-principal {
   background: url(../bendita-versoes.png);
