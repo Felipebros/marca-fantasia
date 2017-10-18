@@ -6,34 +6,35 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  z-index: 100;
-  opacity: .99; }
+  z-index: 100; }
   .menu-principal .logo {
     background: #f6c31b;
     height: 75px; }
     .menu-principal .logo img {
       z-index: 150;
       position: absolute; }
-  .menu-principal nav .navbar-item {
-    border-bottom: 1px dashed black;
-    padding: 7px 10px;
-    font-size: 12pt;
-    z-index: inherit; }
-    .menu-principal nav .navbar-item:hover {
-      background-color: #c0c0c0; }
-  .menu-principal nav .subnav-item {
-    background-color: white;
-    padding: 3px;
-    padding-left: 20px;
-    font-size: 10pt;
-    width: 198px;
-    margin-left: -10px;
-    z-index: inherit; }
-    .menu-principal nav .subnav-item:before {
-      content: '-';
-      padding-right: 3px; }
-    .menu-principal nav .subnav-item:hover {
-      background-color: #969696; }
+  .menu-principal nav {
+    cursor: pointer; }
+    .menu-principal nav .navbar-item {
+      border-bottom: 1px dashed black;
+      padding: 7px 10px;
+      font-size: 12pt;
+      z-index: inherit;
+      transition: height .3s ease-out; }
+      .menu-principal nav .navbar-item:hover {
+        background-color: #c0c0c0; }
+    .menu-principal nav .subnav-item {
+      background-color: white;
+      padding: 3px;
+      padding-left: 20px;
+      font-size: 10pt;
+      width: 198px;
+      z-index: inherit; }
+      .menu-principal nav .subnav-item:before {
+        content: '-';
+        padding-right: 3px; }
+      .menu-principal nav .subnav-item:hover {
+        background-color: #969696; }
 
 .secondmenu {
   background-color: rgba(0, 0, 0, 0.3);
@@ -72,9 +73,5 @@
   visibility: hidden;
   width: 0;
   height: 0; }
-
-.bg-principal {
-  background: url(../bendita-versoes.png);
-  background-repeat: repeat; }
 
 /*# sourceMappingURL=style.css.map */
