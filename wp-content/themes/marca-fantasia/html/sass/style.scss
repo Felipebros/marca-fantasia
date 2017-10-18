@@ -20,6 +20,7 @@ $submenu: 20px;
 	text-transform: uppercase;
 	letter-spacing:2px;
 	z-index: 100;
+	opacity: .99;
 
 	.logo{
 			background: $amarelo;
@@ -66,7 +67,7 @@ $submenu: 20px;
 //menu escondido
 .secondmenu{
 	background-color: rgba(0,0,0,.3);
-	z-index: 0;
+	z-index: 90;
 	position:fixed;
 	top: 0;
 	left: 200px;
@@ -98,7 +99,6 @@ $submenu: 20px;
 	visibility: visible;
 	transform: translate(0,0) !important;	
 	transition: ease-in-out .3s;
-	z-index: 0;
 }
 .esconder{
 	visibility: hidden;

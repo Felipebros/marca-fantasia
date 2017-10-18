@@ -6,7 +6,8 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  z-index: 100; }
+  z-index: 100;
+  opacity: .99; }
   .menu-principal .logo {
     background: #f6c31b;
     height: 75px; }
@@ -36,7 +37,7 @@
 
 .secondmenu {
   background-color: rgba(0, 0, 0, 0.3);
-  z-index: 0;
+  z-index: 90;
   position: fixed;
   top: 0;
   left: 200px;
@@ -62,8 +63,7 @@
 .translate {
   visibility: visible;
   transform: translate(0, 0) !important;
-  transition: ease-in-out .3s;
-  z-index: 0; }
+  transition: ease-in-out .3s; }
 
 .esconder {
   visibility: hidden; }
