@@ -1,0 +1,31 @@
+.footer {
+
+  background: #E4E4E4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+.footer-creditos {
+
+  background:#212636;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.footer-content {
+
+  float: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.footer-img {
+
+  border-radius:50%;
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+
+}
