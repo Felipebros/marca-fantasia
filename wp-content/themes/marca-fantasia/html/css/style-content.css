@@ -1,3 +1,12 @@
+.container {
+	margin-left: 200px !important;
+}
+
+.bg-principal {
+	background: url('../img/bg-temp.jpg')repeat;
+	border-top: 15px solid #212636;
+}
+
 .bg-cinza {
 	background: #e4e4e4;
 }
@@ -107,5 +116,25 @@
 .lancamentos-blocos {
 	margin: 10px 0;
 }
+
+
+.search {
+	background: #212636;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.busca {
+	background: none;
+	border: none;
+	border-bottom: 2px solid #fff;
+}
+
+.cart {
+	background: #212636;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+}
+
 
 /*# sourceMappingURL=style-content.css.map */
