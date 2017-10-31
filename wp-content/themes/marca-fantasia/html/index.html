@@ -10,6 +10,9 @@
 	<script src="js/jquery-3.1.1.min.js"></script><!--  jquery + bootstrap.js  -->
 	<script src="js/controller.js"></script> <!-- javascript personalizado nosso -->
 	<script src="js/bootstrap.min.js"></script>  
+
+	<link rel="icon" href="img/icon-mf.png" type="image/x-icon"/>
+	<link rel="shortcut icon" href="img/icon-mf.png" type="image/x-icon"/>
 	
 </head>
 <body>
@@ -49,14 +52,17 @@
 
 		<!-- aqui é o container-fluid que serve para colocar o bg do corpo do site inteiro (que basicamente envolve quase todo o corpo do site)-->
 		<div class="container-fluid topo-fixo">
-			<div class="col-xs-2 logo-mini">
-				<a href="#">MARCA DE FANTASIA</a>
+			<div class="col-sm-4 logo-mini">
+				<a href="#"><img src="img/logo2.png"></a>
 			</div>
-			<div class="col-xs-4 col-xs-offset-2 col-md-3 col-md-offset-7 search">
+			<div class="col-xs-4 col-sm-4 logo-micro">
+				<a href="#"><img src="img/logo3.png"></a>
+			</div>
+			<div class="col-xs-offset-1 col-xs-2 col-sm-offset-1 col-sm-4 col-md-3 col-md-offset-7 search">
 				<center><input class="busca" type="search">  <img src="http://www.iconsdb.com/icons/preview/white/magnifying-glass-3-xxl.png"></center><!-- formulário de busca -->
 			</div>
-			<div class="col-xs-offset-1 col-xs-1 col-md-1 col-md-offset-1 cart"><center><img src="https://icon-icons.com/icons2/67/PNG/512/shoppingcart_compra_13339.png"></center></div> <!-- ícone do carrinho de compras -->
-			<div class="col-xs-offset-1 col-xs-1 menu-sanduiche">
+			<div class="col-xs-2 col-sm-1 col-md-1 col-md-offset-1 cart"><center><img src="img/icone-carrinho.png"></center></div> <!-- ícone do carrinho de compras -->
+			<div class="col-xs-offset-1 col-xs-2 col-sm-offset-1 col-sm-1 menu-sanduiche">
 				<a href="#">&#9776;</a>
 			</div>
 		</div>
@@ -64,31 +70,31 @@
 
 	<section class="container-fluid bg-pattern"> <!-- aqui vem o bg com a pattern -->
 	<div class="container-fluid">
-		<div class="col-md-4 titulo-principal">
+		<div class="col-xs-12 col-md-4 titulo-principal">
 			<h1>DESTAQUE: <b>MARIA</b></h1> <!-- titulo principal -->
 		</div>
 	</div>
 	</section>
 	<section class="container-fluid bg-cinza"> <!-- aqui vem o bg cinza da parte de maria -->
 		<div class="container-fluid">
-			<div class="col-XS-12 col-md-4"> <!-- parte esquerda do maria (maria e albuns) -->
-					<div class="col-xs-12 titulo-destaque-esquerda-1">
+			<div class="col-sm-12 col-md-4"> <!-- parte esquerda do maria (maria e albuns) -->
+					<div class="col-sm-12 titulo-destaque-esquerda-1">
 						<h2><b>MARIA MAGAZINE</b></h2><!--  título lateral -->
 					</div>
-					<div class="col-xs-12 texto-destaque-esquerda-1">
+					<div class="col-sm-12 texto-destaque-esquerda-1">
 						<p>Revista em quadrinhos humorística de Henrique Magalhães com a personagem "Maria", de sua autoria, mais convidados.</p>
 					</div>
-					<div class="col-xs-12 titulo-destaque-esquerda-2">
+					<div class="col-sm-12 titulo-destaque-esquerda-2">
 						<h2><b>ÁLBUNS</b></h2> <!--  título lateral -->
 					</div>
-					<div class="col-xs-12 texto-destaque-esquerda-2">
+					<div class="col-sm-12 texto-destaque-esquerda-2">
 						<p>Coletâneas de tiras de "Maria", por temas ou fases de produção, edições comemorativas por décadas de criação.</p>
 					</div>
 			</div> 
-			<div class="col-xs-12 col-md-8 conteudo-principal"><!-- conteúdo principal -->
+			<div class="col-xs-12 col-sm-12 col-md-8 conteudo-principal"><!-- conteúdo principal -->
 				<div class="etiqueta-lancamento">Lançamento</div>
-				<div class="col-xs-5 col-md-5"><img class="livro-destaque" src="https://i.pinimg.com/736x/2b/f1/ae/2bf1ae20e9e6d4287f17bfd86d7c5004--book-jacket.jpg" alt=""></div> <!-- imagem principal -->
-				<div class="col-xs-7 col-md-7">
+				<div class="col-xs-12 col-sm-5 col-md-5"><center><img class="livro-destaque" src="https://i.pinimg.com/736x/2b/f1/ae/2bf1ae20e9e6d4287f17bfd86d7c5004--book-jacket.jpg" alt=""></center></div> <!-- imagem principal -->
+				<div class="col-xs-12 col-sm-7 col-md-7">
 					<div class="titulo-conteudo-principal">
 						<h2><b>MARIA MAGAZINE 9</b></h2>
 					</div>
@@ -104,72 +110,72 @@
 
 	<div class="container-fluid bg-pattern">
 		<section class="container-fluid"> <!-- ultimos lançamentos -->
-			<div class="col-xs-12 titulo-lancamentos">
+			<div class="col-sm-12 titulo-lancamentos">
 				<h1>ÚLTIMOS LANÇAMENTOS</h1> <!-- titulo da section -->
 			</div>
-			<div class="col-xs-12 lancamentos">
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-12 lancamentos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div><!--  primeira linha de produtos -->
 
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-xs-4 col-md-3">
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-xs-6 col-md-6 lancamentos-blocos">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
@@ -181,71 +187,65 @@
 			<div class="titulo-lancamentos">
 				<h1>TIRINHAS</h1> <!-- titulo da section -->
 			</div>
-			<div class="lancamentos">
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-12 lancamentos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div><!--  primeira linha de produtos -->
 
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
+			<div class="col-sm-4 col-md-3">
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
 					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
 				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
+				<div class="col-sm-12 col-md-6 lancamentos-blocos">
+					<p><br><b>Maria Magazine N. 1. jun. 2000. 14x20cm. 24p.</b> [esgotada]</p>
 				</div>
 			</div>
-			<div class="col-md-3">
-				<div class="col-md-6 lancamentos-blocos">
-					<img class="livrinhos" src="https://i.pinimg.com/236x/d5/c6/4b/d5c64bc7522c55f90ff2cbbf22bfd165--retro-bicycle-poster-prints.jpg" alt="">
-				</div>
-				<div class="col-md-6 lancamentos-blocos">
-					<p><br>Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla.</p>
-				</div>
+			<div class="col-sm-4 col-md-3">
 			</div>
 		</div><!--  segunda linha de produtos -->
 
@@ -276,7 +276,7 @@
 		<div class="container-fluid footer-creditos"> <!-- colocar o bg azul -->
 			<div class="container-fluid">
 				<div class="footer-content"> <!-- branding e nome do interface + link do github do interfaces -->
-					<center><b>MarcaDeFantasia.com.br</b> - Todos os direitos reservados (c) <a class="text" href="https://github.com/interfaceslivres"><img class="footer-img" src="img/logointerfaces.jpeg"></a></center>
+					<center><b>MarcaDeFantasia.com.br</b> - Todos os direitos reservados &#9400; 2017 <a class="text" alt="Site desenvolvido por Interfaces Livres" href="https://github.com/interfaceslivres"><img class="footer-img" src="img/logointerfaces.jpeg"></a></center>
 				</div> 
 			</div>
 		</div>

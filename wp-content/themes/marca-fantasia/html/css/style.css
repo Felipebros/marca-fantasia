@@ -8,6 +8,10 @@
   display: none;
 }
 
+.logo-micro {
+  display: none;
+}
+
 .menu-principal {
   position: fixed;
   border-top: 15px solid #212636;
@@ -222,12 +226,14 @@
 
 .search {
   background: #212636;
-  padding: 10px;
+  padding: 5px;
+  height: 40px;
   border-radius: 0 0 10px 10px;
 }
 
 .search img {
-max-width: 18px;
+max-width: 17px;
+min-width: 12px;
 width: 100%;
   }
 
@@ -235,17 +241,20 @@ width: 100%;
   background: none;
   border: none;
   border-bottom: 2px solid #fff;
-  width: 80%;
+  max-width: 80%;
+  display: inline-block;
 }
 
 .cart {
   background: #212636;
-  padding: 10px;
+  padding: 5px;
+  height: 40px;
   border-radius: 0 0 10px 10px;
 }
 
 .cart img {
   max-width: 25px;
+  min-width: 12px;
   width: 100%;
 }
 
@@ -301,7 +310,7 @@ width: 100%;
 
 /* ESTILO DO MENU - TELA TABLET */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .menu-principal {
         visibility: hidden; 
     }
@@ -313,7 +322,8 @@ width: 100%;
     .menu-sanduiche {
       display: block;
       background: #212636;
-      padding: 10px;
+      padding: 5px;
+      height: 40px;
       border-radius: 0 0 10px 10px;
       text-align: center;
       color: #fff;
@@ -334,7 +344,11 @@ width: 100%;
 
     .logo-mini {
       display: block;
-      background: #d56128;
+    }
+
+    .logo-mini img {
+      width: 100%;
+      max-width: 230px;
     }
 
     .conteudo-principal {
@@ -348,4 +362,67 @@ width: 100%;
     .texto-destaque-esquerda-2 {
       border-radius: 0 0 10px 10px;
     }
+
+    .cart {
+      border-radius: 0 0 10px 0;
+      border-left: 2px solid #11141d;
+      padding: 10px;
+    }
+
+    .search {
+      border-radius: 0 0 0 10px;
+    }
+
+    .lancamentos {
+      height: 920px;
+    }
 }
+
+@media screen and (max-width: 767px) {
+
+     .logo-mini {
+      display: none;
+    }
+
+    .logo-micro {
+      display: block;
+    }
+
+    .logo-micro img {
+      width: 100%;
+      max-width: 115px;
+      min-width: 60px;
+    }
+
+    .busca {
+  display: none;
+    }
+
+    .livro-destaque {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+    }
+
+    .search {
+      padding: 10px;
+    }
+
+    .cart {
+      padding: 10px;
+    }
+
+    .lancamentos-blocos {
+      text-align: center;
+    }
+
+    .lancamentos {
+      height: 2300px;
+    }
+
+    h1 {
+      font-size: 20px !important;
+    }
+
+  }
