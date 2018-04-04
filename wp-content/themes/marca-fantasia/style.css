@@ -1,0 +1,449 @@
+/*
+Theme Name: Tema Marca de Fantasia
+Theme URI: https://github.com/interfaceslivres/marca-fantasia
+Author: Equipe Interfaces Livres
+Author URI: https://github.com/interfaceslivres
+Description: "Em breve..."
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: "menu-sidebar, 2 colunas"
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+
+
+/* ESTILO DO MENU - TELA GRANDE */
+
+.menu-sanduiche {
+  display: none;
+}
+
+.logo-mini {
+  display: none;
+}
+
+.logo-micro {
+  display: none;
+}
+
+.menu-principal {
+  position: fixed;
+  border-top: 15px solid #212636;
+  height: 100vh;
+  width: 200px;
+  background-color: #dbdbdb;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 100; }
+
+.menu-principal .logo {
+  background: #f6c31b;
+  height: 75px; }
+
+.menu-principal .logo img {
+  z-index: 150;
+  position: absolute; }
+
+.menu-principal nav {
+  cursor: pointer; }
+
+.menu-principal nav .navbar-item {
+  border-bottom: 1px dashed black;
+  padding: 7px 10px;
+  font-size: 12pt;
+  z-index: inherit;
+  transition: height .3s ease-out; }
+
+  .menu-principal nav .navbar-item:hover {
+    background-color: #c0c0c0; }
+
+.menu-principal nav .subnav-item {
+  background-color: white;
+  padding: 3px;
+  padding-left: 20px;
+  font-size: 10pt;
+  width: 198px;
+  z-index: inherit; }
+
+.menu-principal nav .subnav-item:before {
+  content: '-';
+  padding-right: 3px; }
+
+.menu-principal nav .subnav-item:hover {
+  background-color: #969696; }
+
+.secondmenu {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 90;
+  position: fixed;
+  top: 0;
+  left: 200px;
+  height: 100vh;
+  color: white;
+  padding: 40px 0;
+  transform: translate(-200px, 0);
+  transition: ease-in-out .3s; }
+
+.secondmenu h3 {
+  border-bottom: 3px solid white;
+  padding: 5px 10px;
+  font-size: 14pt;
+  letter-spacing: 2px;
+  margin: 0 15px; }
+
+.secondmenu .secondmenu-item {
+  margin-top: 7px;
+  text-transform: capitalize;
+  padding-left: 35px; }
+
+.secondmenu .secondmenu-item:hover {
+  background-color: #f6c31b;
+  color: black; }
+
+.translate {
+  visibility: visible;
+  transform: translate(0, 0) !important;
+  transition: ease-in-out .3s; }
+
+.esconder {
+  visibility: hidden; }
+
+.esconder-total {
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+
+/* ESTILO DO CONTEÚDO - TELA GRANDE */
+
+
+.container-fluid {
+  margin-left: 100px !important;
+}
+
+.bg-principal {
+  background: url('../img/bg-temp.jpg')repeat;
+  border-top: 15px solid #212636;
+}
+
+.bg-cinza {
+  background: #e4e4e4;
+}
+
+.bg-pattern {
+  background: url('../img/bg-temp.jpg')repeat;
+}
+
+.titulo-principal {
+  background: #e4e4e4;
+  padding: 20px 0 16px 0;
+  border-radius: 20px 20px 0 0;
+  font-size: 26px;
+  text-align: center;
+  color: #2a356d;
+  margin-top: 20px;
+}
+
+.titulo-destaque-esquerda-1 {
+  background: #7c7c7c;
+  padding: 10px;
+  border-radius: 10px 0 0 0;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.titulo-destaque-esquerda-2 {
+  background: #7c7c7c;
+  padding: 10px;
+  border-radius: 0;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.texto-destaque-esquerda-1 {
+  background: #fff;
+  padding: 10px;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.texto-destaque-esquerda-2 {
+  background: #fff;
+  padding: 10px;
+  border-radius: 0 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.conteudo-principal {
+  background: #fff;
+  border-radius: 0 10px 10px 0;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.titulo-conteudo-principal {
+  border-bottom: 2px solid #2a356d;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  font-size: 20px;
+  text-align: center;
+  color: #2a356d;
+  letter-spacing: 4;
+  padding: 2px;
+}
+
+.etiqueta-lancamento {
+  background: #d56128;
+  position: relative;
+  width: 120px;
+  height: 30px;
+  top: 0;
+  left: -20px;
+  z-index: 90;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lancamentos {
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  height: 380px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.titulo-lancamentos {
+  text-align: center;
+  background: #212636;
+  border-radius: 20px 20px 0 0;
+  padding: 12px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.lancamentos-blocos {
+  margin: 10px 0;
+}
+
+
+.search {
+  background: #212636;
+  padding: 5px;
+  height: 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+.search img {
+max-width: 17px;
+min-width: 12px;
+width: 100%;
+  }
+
+.busca {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  max-width: 80%;
+  display: inline-block;
+}
+
+.cart {
+  background: #212636;
+  padding: 5px;
+  height: 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+.cart img {
+  max-width: 25px;
+  min-width: 12px;
+  width: 100%;
+}
+
+.livro-destaque {
+    width: 100%;
+  max-width: 220px;
+}
+
+.size-livrinhos {
+      width: 100%;
+      max-width: 110px;
+      height: 50%;
+      max-height: 160px;
+}
+
+
+/* ESTILO DO FOOTER - TELA GRANDE*/
+
+.footer {
+
+  background: #E4E4E4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+.footer-creditos {
+
+  background:#212636;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.footer-content {
+
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+
+}
+
+
+.footer-img {
+
+  border-radius:50%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 25px;
+  width: 25px;
+  float: right;
+
+}
+
+
+/* ESTILO DO MENU - TELA TABLET */
+
+@media screen and (max-width: 991px) {
+    .menu-principal {
+        visibility: hidden;
+    }
+
+    .container-fluid {
+      margin-left: 0 !important;
+    }
+
+    .menu-sanduiche {
+      display: block;
+      background: #212636;
+      padding: 5px;
+      height: 40px;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .menu-sanduiche a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .menu-sanduiche a:hover {
+      text-decoration: none;
+      color: #d56128;
+      font-weight: bold;
+    }
+
+    .logo-mini {
+      display: block;
+    }
+
+    .logo-mini img {
+      width: 100%;
+      max-width: 230px;
+    }
+
+    .conteudo-principal {
+     border-radius: 10px ;
+    }
+
+    .titulo-destaque-esquerda-1 {
+     border-radius: 10px 10px 0 0;
+    }
+
+    .texto-destaque-esquerda-2 {
+      border-radius: 0 0 10px 10px;
+    }
+
+    .cart {
+      border-radius: 0 0 10px 0;
+      border-left: 2px solid #11141d;
+      padding: 10px;
+    }
+
+    .search {
+      border-radius: 0 0 0 10px;
+    }
+
+    .lancamentos {
+      height: 920px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+     .logo-mini {
+      display: none;
+    }
+
+    .logo-micro {
+      display: block;
+    }
+
+    .logo-micro img {
+      width: 100%;
+      max-width: 115px;
+      min-width: 60px;
+    }
+
+    .busca {
+  display: none;
+    }
+
+    .livro-destaque {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+    }
+
+    .search {
+      padding: 10px;
+    }
+
+    .cart {
+      padding: 10px;
+    }
+
+    .lancamentos-blocos {
+      text-align: center;
+    }
+
+    .lancamentos {
+      height: 2300px;
+    }
+
+    h1 {
+      font-size: 20px !important;
+    }
+
+  }
