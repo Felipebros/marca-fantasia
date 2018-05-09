@@ -128,7 +128,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .bg-principal {
-  background: url('../img/bg-temp.jpg')repeat;
+  background: url('img/bg-temp.jpg')repeat;
   border-top: 15px solid #212636;
 }
 
@@ -137,7 +137,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .bg-pattern {
-  background: url('../img/bg-temp.jpg')repeat;
+  background: url('img/bg-temp.jpg')repeat;
 }
 
 .titulo-principal {
